@@ -1,4 +1,4 @@
-FROM library/node:lts-alpine
+FROM node:16.7.0
 
 RUN apk update \
     && apk add bash python make g++
