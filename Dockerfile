@@ -1,7 +1,7 @@
-FROM library/node:16-alpine
+FROM node:16-buster
 
-RUN apk update \
-    && apk add bash python3 make g++
+#RUN apk update \
+    ##&& apk add python3 make g++
 
 RUN mkdir -p /data/node_modules
 
